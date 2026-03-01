@@ -27,4 +27,4 @@ async def main() -> None:
     """Start MCP server."""
     server = create_server()
     server.collect(*parallel_tools)
-    await server.serve(port=8081)
+    await server.serve(port=8080)
