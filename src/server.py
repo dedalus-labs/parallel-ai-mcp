@@ -15,7 +15,7 @@ def create_server() -> MCPServer:
     """Create MCP server with current env config."""
     as_url = os.getenv("DEDALUS_AS_URL", "https://as.dedaluslabs.ai")
     return MCPServer(
-        name="parallel-mcp",
+        name="parallel-ai-mcp",
         connections=parallel_connections,
         http_security=TransportSecuritySettings(enable_dns_rebinding_protection=False),
         streamable_http_stateless=True,

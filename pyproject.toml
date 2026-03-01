@@ -7,7 +7,7 @@ build-backend = "uv_build"
 # --- PROJECT CONFIGURATION ---
 
 [project]
-name = "parallel-mcp"
+name = "parallel-ai-mcp"
 version = "0.0.1"
 description = "A web intelligence MCP server powered by Parallel AI."
 readme = "README.md"
